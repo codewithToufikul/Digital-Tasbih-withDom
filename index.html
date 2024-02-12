@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="max-w-[1240px] mx-auto">
+    <header>
+       <div class="title-container">
+        <h1 class="text-5xl lg:text-7xl lg:font-semibold text-sky-400/100 text-center mt-14">Digital Taasbih</h1>
+       </div>
+    </header>
+    <main>
+        <div class="flex lg:space-x-5 lg:space-y-0 space-y-3 mt-14 lg:flex-row flex-col">
+
+            <div class="card lg:w-96 bg-base-100 shadow-xl">
+                <div class="card-body mx-auto text-center space-y-3">
+                  <h2 class="text-4xl">Subhal Allah</h2>
+                  <p id="subhalallahDisplay" class="text-4xl">0</p>
+                  
+                  <div class="">
+                    <button id="subhanallahIncrimentBtn" class="btn btn-primary text-xl">INCRIMENT</button>
+                    <button id="subhanallahDicrimentBtn" class="btn btn-secondary text-xl">DCRIMENT</button>
+                  </div>
+                </div>
+              </div>
+
+            <div class="card lg:w-96 bg-base-100 shadow-xl">
+                <div class="card-body mx-auto text-center space-y-3">
+                  <h2 class="text-4xl">Alhamdulillah</h2>
+                  <p id="alhamdulillahDisplay" class="text-4xl">0</p>
+                  
+                  <div class="">
+                    <button id="alhamdulillaIncrimentBtn" class="btn btn-primary text-xl">INCRIMENT</button>
+                    <button id="alhamdulillaDicrimentBtn" class="btn btn-secondary text-xl">DCRIMENT</button>
+                  </div>
+                </div>
+              </div>
+
+            <div class="card lg:w-96 bg-base-100 shadow-xl">
+                <div class="card-body mx-auto text-center space-y-3">
+                  <h2 class="text-4xl">Allahuakhber</h2>
+                  <p id="allahuakhberDisplay" class="text-4xl">0</p>
+                  
+                  <div class="">
+                    <button id="allahuakhberIncrimentBtn" class="btn btn-primary text-xl">INCRIMENT</button>
+                    <button id="allahuakhberDicrimrntBtn" class="btn btn-secondary text-xl">DCRIMENT</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="text-center mt-9 mb-6">
+            <button id="resetBtn" class="btn btn-warning">RESET TASBIH !</button>
+        </div>
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
